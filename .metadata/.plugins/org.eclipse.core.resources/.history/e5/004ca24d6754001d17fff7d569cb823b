@@ -1,0 +1,60 @@
+package cl.generation.v20221025;
+
+import java.util.ArrayList;
+
+public class ArregloDinamico {
+
+	public static void main(String[] args) {
+		//ArrayList -- Definicion
+		//ArrayList<Tipodedato> nombre_array = ArrayList<tipodedato>();
+		
+		ArrayList<String> takefive = new ArrayList<String>();
+		//2-Agregar valores al arreglo
+		
+		takefive.add("Kiara");
+		takefive.add("Cynthia");
+		takefive.add("Luis");
+		takefive.add("Pablo");
+		takefive.add("Daniel");
+		System.out.println(takefive);
+		
+		//3-tamaño del arraylist   SIZE DINAMICO --- LENGHT ESTATICO
+		
+		System.out.println(takefive.size());
+		
+		//4 obtener  un elemento dentro del arreglo
+		
+		System.out.println(takefive.get());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

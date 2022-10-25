@@ -1,0 +1,22 @@
+package cl.generation.l20221024;
+
+public class Arreglo {
+
+	public static void main(String[] args) {
+
+	int [] sinNumeros = {};
+	System.out.println(sinNumeros.length);
+	
+	
+	//crear un array de numeros flotantes de tamaño 6
+	float []numeros = new float[4];
+	//agregar 6 elementos al arreglo
+	numeros[0]= 3;
+	numeros[1]= 2;
+	numeros[2]= 7;
+	numeros[3]= 6;
+	System.out.printIn(nmeros)
+			}
+		}
+
+	

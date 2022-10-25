@@ -1,0 +1,57 @@
+package cl.generation.l20221024;
+
+public class Arreglo {
+
+	public static void main(String[] args) {
+
+	int [] sinNumeros = {};
+	System.out.println(sinNumeros.length);
+	
+	
+	//crear un array de numeros flotantes de tamaño 6
+	float []numeros = new float[4];
+	//agregar 6 elementos al arreglo
+	numeros[0]= 3;
+	numeros[1]= 2;
+	numeros[2]= 7;
+	numeros[3]= 6;
+	
+
+	
+	//solucion 1
+			int[] arreInt = new int [100];
+			for (int i = 0; i < arreInt.length; i++) {
+				arreInt[i]=i;
+				System.out.println("Elemento :"+(i+1));
+			}
+			//solucion 2
+			int[] arreInt2 = new int[100];
+			for (int i = 1; i < arreInt2.length; i++) {
+				arreInt2[i]=i+1;
+			}
+			
+			System.out.println(Arrays.toString(arreInt2));
+			
+			//del 100 al 1
+			int[] arreInt2 = new int[100];
+			for (int i = 0; i < arreInt2.length; i++) {
+				arreInt2[i]=i+1;
+			}
+			System.out.println(Arrays.toString(arreInt2));
+
+			int [] ejercicio3 = new int [100];
+			for (int i= 0; i<ejercicio3.length; i++) {
+				ejercicio3[i]= 100-i;
+			}
+			System.out.println(Arrays.toString(ejercicio3));
+
+			int[] arreglo100a1 = new int[100];
+			//{100,99,98,97...0}
+			for(int i =arreglo100a1.length; i>0  ;i-- ) {
+				arreglo100a1[arreglo100a1.length - i]= i;
+			}
+			
+			}
+		}
+
+	

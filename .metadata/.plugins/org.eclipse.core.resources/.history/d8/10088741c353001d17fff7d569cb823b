@@ -1,0 +1,14 @@
+package cl.generation.l20221024;
+
+public class Arreglo {
+
+	public static void main(String[] args) {
+
+	int [] sinNumeros = {1};
+	System.out.println(sinNumeros.length);
+				
+				
+			}
+		}
+
+	

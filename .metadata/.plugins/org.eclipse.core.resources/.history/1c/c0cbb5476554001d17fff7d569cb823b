@@ -1,0 +1,10 @@
+package cl.generation.v20221025;
+
+public class ArregloDinamico {
+
+	public static void main(String[] args) {
+		//ArrayList
+
+	}
+
+}
