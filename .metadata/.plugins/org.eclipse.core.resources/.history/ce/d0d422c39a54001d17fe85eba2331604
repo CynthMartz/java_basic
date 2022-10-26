@@ -1,0 +1,39 @@
+package cl.generation.v20221025;
+
+import java.security.PublicKey;
+
+public class Funciones1 {
+
+	public static void main(String[] args) {
+		//Funciones o metodo
+		// llamar a un metodo
+		nombremetodo();
+		metodo2("Cynthia");
+		metodo2("Martz");
+		
+		
+		}
+
+		
+		
+
+//definicion o estructura de un metodo
+//void= el metdo no retorna ningun valor
+	
+	public static void nombremetodo() {
+		
+	System.out.println("Estoy dentro del metodo inicial... ");	
+		
+	}
+	
+	public static void metodo2(String nombre) {
+		
+		System.out.println("Soy "+ nombre);	
+			
+	}
+	public static void metodo3(Integer numeros) {
+		
+		System.out.println("Soy el nro "+ numeros);	
+			
+	}
+}

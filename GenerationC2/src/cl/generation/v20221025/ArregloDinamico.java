@@ -40,8 +40,16 @@ public class ArregloDinamico {
 		for(String take: takefive){   //take= relator -- takefive= relatores
 		System.out.println(take);
 		}
+		//Ejemplo con otro tipo de dato
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
+		numeros.add(2);
+		numeros.add(3);
+		numeros.add(4);
+		numeros.add(5);
 		
-		
+		for(Integer numero :numeros) {
+			System.out.println(numero);
+		}
 		
 		
 		

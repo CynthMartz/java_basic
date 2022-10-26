@@ -1,0 +1,37 @@
+package cl.generation.v20221025;
+
+import java.util.HashSet;
+
+public class ArregloHashSet {
+
+	public static void main(String[] args) {
+		//set o hashset -- definicion
+		//HashSet<Tipodedato> nombre_array = HashSet<tipodedato>();
+		HashSet<String> takefive = new HashSet<String>();
+		
+		//2- agregar elemento al arreglo // no acepta datos duplicados
+		takefive.add("Kiara");
+		takefive.add("Cynthia");
+		takefive.add("Luis");
+		takefive.add("Pablo");
+		takefive.add("Daniel");
+		System.out.println(takefive);
+		
+		
+		//3- verificar el contenido del arreglo
+		 boolean verificacionNombre = takefive.contains("loca");
+		 System.out.println("Existe el taker "+verificacionNombre);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
