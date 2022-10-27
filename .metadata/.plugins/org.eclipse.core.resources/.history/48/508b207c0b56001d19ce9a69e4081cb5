@@ -1,0 +1,10 @@
+package cl.generation.v20221027;
+
+public class FigurasGeometricasLuis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

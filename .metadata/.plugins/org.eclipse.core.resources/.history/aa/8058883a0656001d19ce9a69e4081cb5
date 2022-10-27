@@ -1,0 +1,23 @@
+
+public class FigurasGeómetricas {
+
+	public static void main(String[] args) {
+		menu();
+
+		
+	}
+
+	public static void menu() {
+		System.out.println("----------------------------------");
+		System.out.println("|         MENÚ                    |");
+		System.out.println("----------------------------------");
+		System.out.println("|    1.PERIMETRO DEL TRIANGULO    |");
+		System.out.println("|    2.AREA DEL TRIANGULO         |");
+		System.out.println("|    3.PERIMETRO DEL RECTANGULO   |");
+		System.out.println("|    4.AREA DEL RECTANGULO        |");
+		System.out.println("|    5.AREA DEL CIRCULO           |");
+		System.out.println("|    6.PERIMETRO DEL CIRCULO      |");
+		System.out.println("|    0.SALIR                      |");
+		System.out.println("----------------------------------");
+	}
+}

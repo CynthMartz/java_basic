@@ -1,0 +1,110 @@
+package cl.generation.v20221027;
+
+import java.util.Scanner;
+
+public class FigurasGeometricas {
+
+	public static void main(String[] args) {
+		//crear el menu de opciones(1.Area de triangulo, 2.Area de circulo, 3.Perimetro de ...)
+				//solicitar y capturar los datos
+				//sacar perimetro, area de triangulo
+				//sacar perimetro, area de rectangulo
+				//sacar perimetro, area de circulo
+				//imprimir el resultado
+				//definir variables y metodos
+				//terminar la ejecucion
+				
+		menu();
+			}
+			
+			public static void menu() {
+				System.out.println("Bienvenido a la calculadora");
+				System.out.println("----------------------------------");
+				System.out.println("|         MENÚ                    |");
+				System.out.println("----------------------------------");
+				System.out.println("|    1.PERÍMETRO DEL TRIÁNGULO    |");
+				System.out.println("|    2.ÁREA DEL TRIÁNGULO         |");
+				System.out.println("|    3.PERÍMETRO DEL RECTÁNGULO   |");
+				System.out.println("|    4.ÁREA DEL RECTÁNGULO        |");
+				System.out.println("|    5.PERÍMETRO DEL CÍRCULO      |");
+				System.out.println("|    6.ÁREA DEL CÍRCULO           |");
+				System.out.println("|    0.SALIR                      |");
+				System.out.println("----------------------------------");
+				
+				Scanner sc = new Scanner(System.in);
+				float opciones = 0;
+				
+				
+				do {
+					System.out.println("Bienvenido a la calculadora");
+					System.out.println("* Seleccione una opción *");
+					opciones = sc.nextInt();
+					
+					if (opciones == 0 || opciones > 6) {
+						System.out.println("Usted ha salido del programa");
+						break;
+					}
+						
+				} while (opciones > 0 || opciones < 6);
+				
+				
+				
+				Scanner scan = new Scanner(System.in);
+				float lado1, lado2, lado3, lado4;
+				float base, altura;
+				float ladoa;
+				float ladob;
+				float resultado= 0;
+
+				switch (opciones) {
+				case 1://PERÍMETRO DEL TRIÁNGULO
+					System.out.println("Indique lado 1");
+					lado1=scan.nextFloat();
+					
+					System.out.println("Indique lado 2");
+					lado2=scan.nextFloat();
+					
+					System.out.println("Indique lado 3");
+					lado3=scan.nextFloat();
+					
+					resultado = lado1 + lado2 + lado3;
+					System.out.println("El resultado del perímetro del triángulo es "+ resultado);
+					break;
+				case 2://ÁREA DEL TRIÁNGULO 
+					System.out.println("Indique la base");
+					base =scan.nextFloat();
+					
+					System.out.println("Indique la altura");
+					resultado = base * altura /2;
+					System.out.println("El resultado del área del triángulo es "+ resultado);
+					break;
+				case 3://PERÍMETRO DEL RECTÁNGULO
+					resultado = lado1 + lado2 + lado3 + lado4; 
+					System.out.println("El resultado del perímetro del rectángulo es "+ resultado);
+					break;
+				case 4://ÁREA DEL RECTÁNGULO 
+					resultado = ladoa * ladob;
+					System.out.println("El resultado del área del rectángulo es "+ resultado);
+					break;
+				case 5://PERÍMETRO DEL CÍRCULO
+					//resultado = 2*Math.PI*radio;
+					System.out.println("El resultado del perímetro del círculo es "+ resultado);
+					break;
+				case 6://ÁREA DEL CÍRCULO 
+					//resultado = 3.1416 * Math. pow(radio,2)
+					System.out.println("El resultado del área del círculo es "+ resultado);
+					break;	
+				
+
+				default:
+					System.out.println("Opción no valida");
+					break;
+				}
+				
+				
+			
+			}
+
+		}
+
+

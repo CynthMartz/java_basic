@@ -1,0 +1,33 @@
+package cl.generation.v20221027;
+
+public class Menu {
+
+	public static void main(String[] args) {
+		// MENU
+		//CALCULADORA CON 4 operaciones basicas 
+		//solicitar 2 nuemros Float 
+		//imprimir los resultados y guardar en una variable
+		//ofrecer opciones de repeticion (bucles)
+		//definir los metodos
+		//validaciones
+		//terminar la ejecucion
+		//limpiar las variables
+		menu();
+		
+	
+
+	}
+
+	public static void menu () {
+		System.out.println("****************************");
+		System.out.println("***      Menu        ***");
+		System.out.println("****************************");
+		System.out.println("***        Suma         ***");
+		System.out.println("***        Resta        ***");
+		System.out.println("***      División       ***");
+		System.out.println("***    Multiplicación   ***");
+	}
+	
+	
+	
+}

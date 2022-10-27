@@ -1,0 +1,17 @@
+package cl.generation.v20221027;
+
+public class DatosClientes2 {
+
+	public static void main(String[] args) {
+		DatosClientes DatosClientes1 = new DatosClientes();
+		
+		DatosClientes1.getNombre("Luis");
+		DatosClientes1.getApellidoPaterno("Pino");
+		DatosClientes1.getApellidoMaterno("Hormazabal");
+		DatosClientes1.getEdad(20);
+		DatosClientes1.getCedula(123456);
+		DatosClientes1.getCorreo("luis@gmail.com");
+		
+	}
+
+}

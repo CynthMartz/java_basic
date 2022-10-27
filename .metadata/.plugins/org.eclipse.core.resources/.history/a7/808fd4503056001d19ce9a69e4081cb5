@@ -1,0 +1,11 @@
+package cl.generation.v20221027;
+
+public class DatosClientes {
+	private String nombre;
+	private String apellidoPaterno;
+	private String apellidoMaterno;
+	private Integer edad;
+	private Integer cedula;
+	private String correo;
+	
+}

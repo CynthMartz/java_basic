@@ -1,0 +1,10 @@
+package cl.generation.v20221027;
+
+public class Auto {
+//atributos
+	private String marca; //"Nissan"
+	private String color; //"negro"	
+	
+	
+	
+}

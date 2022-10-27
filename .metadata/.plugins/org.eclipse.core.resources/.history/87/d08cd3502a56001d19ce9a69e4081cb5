@@ -1,0 +1,18 @@
+package cl.generation.v20221027;
+
+public class UsoObjeto {
+
+	public static void main(String[] args) {
+		// instancia de clase -- para asignar un valor a un atributo debe estar publico
+		Auto auto1 = new Auto();
+		//auto1.color()
+		//asignar valores a atributos privados * solo a traves del metodo setter
+		auto1.setcolor("rojo"); 
+		auto1.setMarca("Peugeot");
+		
+		//para saber el contenido de los atributos
+		System.out.println(auto1.toString());
+		
+	}
+
+}
