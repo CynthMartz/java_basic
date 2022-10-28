@@ -14,10 +14,8 @@ public class DatosClientes2 {
 		
 		System.out.println(DatosClientes1.toString());
 		
-		DatosClientes DatosClientes2 = new DatosClientes();
+		DatosClientes Cliente2 = new DatosClientes();
 		
-		DatosClientes2.setNombre();
-		DatosClientes2.setApellidoPaterno();
 		
 		
 		
