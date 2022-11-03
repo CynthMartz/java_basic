@@ -1,9 +1,0 @@
-package cl.generation.v20221026;
-
-public class BucleDoWhileTest {
-
-	public static void main(String[] args) {
-
-	}
-
-}

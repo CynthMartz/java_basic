@@ -1,0 +1,33 @@
+package cl.generation.v20221102;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//herencia en JAVA
+		//Instanciando objetos
+		Entrenador entrenador= new Entrenador();
+		entrenador.setNombre("Jhon");
+		entrenador.setApellido("Doe");
+		entrenador.setEdad(55);
+		entrenador.setAnosExperiencia(10);
+		entrenador.setEquipo("Valdivia");
+		
+		System.out.println(entrenador.toString());
+		
+	}
+
+		Kinesiologo kine = new Kinesiologo();
+		kine.setNombre("Jane");
+		kine.setApellido("Doe");
+		kine.setEdad(52);
+		Kine.setTitulo("Kinesiologia");
+		kine.setEspecialidad("En musculos");
+		
+		ArrayList <Basquetbol> listaJugadores= new ArrayList<Basquetbol>();
+		
+		Basquetbol basque = new Basquetbol();
+		basque.setNombre("Michel");
+		basque.setApellido("Pipen");
+		basque.setEdad(0);
+		
+}

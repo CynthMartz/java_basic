@@ -1,0 +1,44 @@
+package cl.generation.v20221102;
+
+
+
+public class PoliMain {
+
+	public static void main(String[] args) {
+		// Polimorfismo
+		//instancia de las clases
+		
+		Mascotas mascotas= new Mascotas();
+		mascotas.emitirSonido();
+
+		
+		Perro nur = new Perro();
+		nur.emitirSonido();
+		
+		Gato fito = new Gato();
+		fito.emitirSonido();
+		
+		/*******POLIMORFISMO********/
+		/* Una super clase se comporta como una clase hija, pero no es la clase hija.
+		 * DEBE EXISTIR HERENCIA
+		 * jerarquia de clase
+		 * */
+		
+		System.out.println("");
+		Mascota regalon = new Perro();
+		regalon.emitirSonido();
+		regalon.setNombre("Zoe");
+		System.out.println(regalon.toString());
+		
+		Mascota michi = new Gato();
+		michi.emitirSonido();
+		
+/*polimorfismo parametrico, 
+ * el metodo se escribe igual pero recibe distintos parametros*/
+		michi.horasSiesta(16.5f);
+		
+		//Perro dog = (Perro) new Mascota();
+		Perro dog = (Perro) regalon;
+	}
+
+}

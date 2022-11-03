@@ -1,0 +1,11 @@
+package cl.generation.v20221102;
+
+public class PoliMain {
+
+	public static void main(String[] args) {
+		// Polimorfismo
+		
+
+	}
+
+}

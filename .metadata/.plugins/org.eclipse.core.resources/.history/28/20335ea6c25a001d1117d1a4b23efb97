@@ -1,0 +1,27 @@
+package cl.generation.v20221102.poli;
+
+public class PoliMain {
+
+	public static void main(String[] args) {
+		// Polimorfismo
+		//instancia de las clases
+		
+		Mascotas mascotas= new Mascotas();
+		mascotas.emitirSonido();
+
+		
+		Perro nur = new Perro();
+		nur.emitirSonido();
+		
+		Gato fito = new Gato();
+		fito.emitirSonido();
+		
+		/***************/
+		
+		Mascotas nurvanu = new Perro();
+		
+		Mascotas michi = new Gato();
+		
+	}
+
+}

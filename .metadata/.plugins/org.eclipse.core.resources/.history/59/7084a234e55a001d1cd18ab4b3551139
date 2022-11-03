@@ -1,0 +1,22 @@
+package cl.generation.v20221102.interfaces;
+
+public class Carnivoro  extends Animal implements Generico{{
+
+}
+
+@Override
+public void respirar() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void comer() {
+System.out.println("Come carne");	
+}
+
+@Override
+public void metodoEnAnimal() {
+	// TODO Auto-generated method stub
+	
+}

@@ -1,0 +1,12 @@
+package cl.generation.v20221102.interfaces;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// interfaces y clases abstractas
+
+		Animal animal = new Animal();
+		
+	}
+
+}
